@@ -23,4 +23,8 @@ export class Age {
     let newYears = number / .62;
     this.newYears = Math.round(newYears);
   }
+  getMarsed(number) {
+    let newYears = number / 1.88;
+    this.newYears = Math.round(newYears);
+  }
 } 

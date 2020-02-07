@@ -53,4 +53,10 @@ describe('Age', () => {
     olderAge.getVenused(olderAge.winningBy);
     expect(olderAge.newYears).toEqual(16);
   })
+
+  //testing for Mars
+  test('should return age of user on Mars', () => {
+    age.getMarsed(age.userAge);
+    expect(age.newYears).toEqual(12);
+  })
 })
