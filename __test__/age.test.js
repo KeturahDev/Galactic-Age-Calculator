@@ -42,6 +42,6 @@ describe('Age', () => {
   test('should return life expectency left on Venus', () => {
     age.lifeLeftOnEarth()
     age.getVenused(age.remainingEarthLife);
-    expect(age.newYears).toEqual(217);
+    expect(age.newYears).toEqual(84);
   })
 })
