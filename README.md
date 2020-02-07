@@ -28,6 +28,10 @@ This application will determine your age on any given planet in the solar system
 | calculates user's age with Jupiter years (rounded to nearest whole number) | 21 | 2 |
 | returns life expectancy left on Jupiter | 21 | 4 |
 | returns number of years user has lived past life expectancy for Jupiter | 83 | 1 |
+| display users age in planetary years depending on which button they click | inputs 21, click mars | age: 11 |
+| display users life expectency for given planet when L.E. button is clicked| 21, mars, click find out life expectency | 28 more years |
+| display users years over life expectency for given planet when L.E. button is clicked| 83, mars, click find out life expectency | winning by 5 years! |
+
 
 
 ## Setup/Installation Requirements
