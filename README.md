@@ -15,10 +15,19 @@ This application will determine your age on any given planet in the solar system
 | ------------- |:-------------:| -------------------:|
 | returns users age | 21 | 21 |
 | returns life expectancy left on earth based on average life expectancy (73) | 21 | 52 |
+| returns number of years user has lived past life expectancy if user is older than 73 | 83 | 10 |
 | calculates user's age with Mercury years (rounded to nearest whole number) | 21 | 88 |
+| returns life expectancy left on Mercury | 21 | 216.6 |
+| returns number of years user has lived past life expectancy for Mercury | 83 | 42 |
 | calculates user's age with Venus years (rounded to nearest whole number) | 21 | 34 |
+| returns life expectancy left on Venus | 21 | 83.8 |
+| returns number of years user has lived past life expectancy for Venus | 83 | 16 |
 | calculates user's age with Mars years (rounded to nearest whole number) | 21 | 11 |
+| returns life expectancy left on Mars | 21 | 27.6 |
+| returns number of years user has lived past life expectancy for Mars | 83 | 5 |
 | calculates user's age with Jupiter years (rounded to nearest whole number) | 21 | 2 |
+| returns life expectancy left on Jupiter | 21 | 4.3 |
+| returns number of years user has lived past life expectancy for Jupiter | 83 | 1 |
 
 
 
