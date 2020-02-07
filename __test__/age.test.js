@@ -4,6 +4,6 @@ describe('Age', () => {
   const input = 21
   let age = new Age(input)
   test('should return age of user', () => {
-    expect(age.userAge).toEqual(10);
+    expect(age.userAge).toEqual(21);
   })
 })
