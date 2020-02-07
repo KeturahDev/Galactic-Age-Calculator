@@ -25,6 +25,7 @@ describe('Age', () => {
     age.getMerked(age.userAge);
     expect(age.newYears).toEqual(88);
   })
+
   test('should return life expectency left on Mercury', () => {
     age.lifeLeftOnEarth()
     age.getMerked(age.remainingEarthLife);
@@ -34,5 +35,9 @@ describe('Age', () => {
     olderAge.lifeLeftOnEarth();
     olderAge.getMerked(olderAge.winningBy);
     expect(olderAge.newYears).toEqual(42);
+  })
+  test('should return age of user on Venus', () => {
+    age.getVenused(age.userAge);
+    expect(age.newYears).toEqual(88);
   })
 })
