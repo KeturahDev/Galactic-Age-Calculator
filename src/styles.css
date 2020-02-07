@@ -6,4 +6,17 @@ body{
 }
 .container{
   margin: 10%;
+  text-align: center;
+}
+#mercury{
+  display: none;
+}
+#venus{
+  display: none;
+}
+#mars{
+  display: none;
+}
+#jupiter{
+  display: none;
 }
