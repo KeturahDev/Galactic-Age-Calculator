@@ -28,7 +28,7 @@ describe('Age', () => {
     expect(age.newYears).toEqual(88);
   })
   test('should return life expectency left on Mercury', () => {
-    age.lifeLeftOnEarth()
+    age.lifeLeftOnEarth();
     age.getMerked(age.remainingEarthLife);
     expect(age.newYears).toEqual(217);
   })
@@ -44,13 +44,13 @@ describe('Age', () => {
     expect(age.newYears).toEqual(34);
   })
   test('should return life expectency left on Venus', () => {
-    age.lifeLeftOnEarth()
+    age.lifeLeftOnEarth();
     age.getVenused(age.remainingEarthLife);
     expect(age.newYears).toEqual(84);
   })
   test('should return amount of years lived past life expectancy on Venus', () => {
     olderAge.lifeLeftOnEarth();
     olderAge.getVenused(olderAge.winningBy);
-    expect(olderAge.newYears).toEqual(42);
+    expect(olderAge.newYears).toEqual(16);
   })
 })
