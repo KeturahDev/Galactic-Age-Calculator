@@ -6,7 +6,6 @@ export class Age {
     this.winningBy = 0;
     this.newYears = 0
   }
-
   lifeLeftOnEarth() {
     if (this.userAge < this.lifeExpectency) {
       this.remainingEarthLife += this.lifeExpectency - this.userAge;
@@ -14,7 +13,6 @@ export class Age {
       this.winningBy += this.userAge - this.lifeExpectency;
     }
   }
-
   getMerked(number) {
     let newYears = number / .24;
     this.newYears = Math.round(newYears);
