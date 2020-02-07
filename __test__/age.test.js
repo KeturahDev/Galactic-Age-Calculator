@@ -23,6 +23,11 @@ describe('Age', () => {
   })
   test('should return age of user on Mercury', () => {
     age.getMerked(age.userAge);
-    expect(age.newAge).toEqual(88);
+    expect(age.newYears).toEqual(88);
+  })
+  test('should return life expectency left on Mercury', () => {
+    age.lifeLeftOnEarth()
+    age.getMerked(age.remainingEarthLife);
+    expect(age.newYears).toEqual(55);
   })
 })
