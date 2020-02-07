@@ -38,6 +38,6 @@ describe('Age', () => {
   })
   test('should return age of user on Venus', () => {
     age.getVenused(age.userAge);
-    expect(age.newYears).toEqual(88);
+    expect(age.newYears).toEqual(34);
   })
 })

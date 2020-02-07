@@ -19,4 +19,8 @@ export class Age {
     let newYears = number / .24;
     this.newYears = Math.round(newYears);
   }
+  getVenused(number) {
+    let newYears = number / .62;
+    this.newYears = Math.round(newYears);
+  }
 } 
