@@ -9,6 +9,11 @@ $(document).ready(function () {
     let age = $('#age').val();
     let usersAge = new Age(age);
 
-    console.log(usersAge);
+    $('#currentAge').html(usersAge.userAge);
+
+
+    console.log(usersAge.userAge);
+    $('.output').show();
+    $('#mercAge').append(usersAge.userAge)
   });
 });
