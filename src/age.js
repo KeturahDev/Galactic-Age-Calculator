@@ -27,4 +27,8 @@ export class Age {
     let newYears = number / 1.88;
     this.newYears = Math.round(newYears);
   }
+  getJupt(number) {
+    let newYears = number / 11.86;
+    this.newYears = Math.round(newYears);
+  }
 } 

@@ -69,4 +69,10 @@ describe('Age', () => {
     olderAge.getMarsed(olderAge.winningBy);
     expect(olderAge.newYears).toEqual(5);
   })
+
+  //testing for Jupiter
+  test('should return age of user on Jupiter', () => {
+    age.getJupt(age.userAge);
+    expect(age.newYears).toEqual(3);
+  })
 })
