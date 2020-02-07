@@ -80,4 +80,9 @@ describe('Age', () => {
     age.getJupt(age.remainingEarthLife);
     expect(age.newYears).toEqual(4);
   })
+  test('should return amount of years lived past life expectancy on Jupiter', () => {
+    olderAge.lifeLeftOnEarth();
+    olderAge.getJupt(olderAge.winningBy);
+    expect(olderAge.newYears).toEqual(2);
+  })
 })
