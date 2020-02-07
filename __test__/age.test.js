@@ -73,6 +73,6 @@ describe('Age', () => {
   //testing for Jupiter
   test('should return age of user on Jupiter', () => {
     age.getJupt(age.userAge);
-    expect(age.newYears).toEqual(3);
+    expect(age.newYears).toEqual(2);
   })
 })
