@@ -18,7 +18,7 @@ describe('Age', () => {
     expect(age.remainingEarthLife).toEqual(52);
   })
   test('should return amount of years lived past life expectancy', () => {
-    age.lifeLeftOnEarth();
-    expect(age.winningBy).toEqual(11)
+    olderAge.lifeLeftOnEarth();
+    expect(olderAge.winningBy).toEqual(10)
   })
 })
