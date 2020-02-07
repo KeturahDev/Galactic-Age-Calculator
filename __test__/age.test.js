@@ -12,6 +12,6 @@ describe('Age', () => {
   })
   test('should return life expectency left on earth', () => {
     age.lifeLeftOnEarth()
-    expect(age.remainingEarthLife).toEqual(50)
+    expect(age.remainingEarthLife).toEqual(52)
   })
 })
