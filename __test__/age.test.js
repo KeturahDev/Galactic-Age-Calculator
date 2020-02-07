@@ -64,4 +64,9 @@ describe('Age', () => {
     age.getMarsed(age.remainingEarthLife);
     expect(age.newYears).toEqual(28);
   })
+  test('should return amount of years lived past life expectancy on Mars', () => {
+    olderAge.lifeLeftOnEarth();
+    olderAge.getMarsed(olderAge.winningBy);
+    expect(olderAge.newYears).toEqual(8);
+  })
 })
