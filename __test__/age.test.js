@@ -83,6 +83,6 @@ describe('Age', () => {
   test('should return amount of years lived past life expectancy on Jupiter', () => {
     olderAge.lifeLeftOnEarth();
     olderAge.getJupt(olderAge.winningBy);
-    expect(olderAge.newYears).toEqual(2);
+    expect(olderAge.newYears).toEqual(1);
   })
 })
