@@ -19,11 +19,10 @@ describe('Age', () => {
   })
   test('should return amount of years lived past life expectancy', () => {
     olderAge.lifeLeftOnEarth();
-    expect(olderAge.winningBy).toEqual(10)
+    expect(olderAge.winningBy).toEqual(10);
   })
   test('should return age of user on Mercury', () => {
     age.getMerked(age.userAge);
-    console.log(age.newAge)
-    expect(age.newAge).toEqual(22)
+    expect(age.newAge).toEqual(88);
   })
 })
