@@ -4,7 +4,7 @@ export class Age {
     this.lifeExpectency = 73;
     this.remainingEarthLife = 0;
     this.winningBy = 0;
-    this.newYears = 0
+    this.newYears = 0;
   }
   lifeLeftOnEarth() {
     if (this.userAge < this.lifeExpectency) {
