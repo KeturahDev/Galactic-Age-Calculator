@@ -1,4 +1,6 @@
 import $ from 'jquery';
+import 'bootstrap';
+import './styles.css'
 import { Age } from './age.js';
 
 $(document).ready(function () {

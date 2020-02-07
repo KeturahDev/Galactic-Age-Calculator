@@ -1,3 +1,9 @@
+body{
+  background-color: pink;
+}
+.output{
+  display: none;
+}
 .container{
   margin: 10%;
 }
