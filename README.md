@@ -1,6 +1,6 @@
 # Super Galactic Age Calculator
 
-#### _Week 5 Friday Project for Epicodus_, _4 Feb. 2020_
+#### _Week 5 Friday Project for Epicodus_, _7th Feb. 2020_
 
 #### By _**Keturah Howard**_
 
@@ -13,7 +13,12 @@ This application will determine your age on any given planet in the solar system
 
 | Specification | Example Input | Example Output |
 | ------------- |:-------------:| -------------------:|
-|  |  |  |
+| returns users age | 21 | 21 |
+| returns life expectancy left on earth based on average life expectancy (73) | 21 | 52 |
+| calculates user's age with Mercury years (rounded to nearest whole number) | 21 | 88 |
+| calculates user's age with Venus years (rounded to nearest whole number) | 21 | 34 |
+| calculates user's age with Mars years (rounded to nearest whole number) | 21 | 11 |
+| calculates user's age with Jupiter years (rounded to nearest whole number) | 21 | 2 |
 
 
 
