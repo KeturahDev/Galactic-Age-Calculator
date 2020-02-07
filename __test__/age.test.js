@@ -62,6 +62,6 @@ describe('Age', () => {
   test('should return life expectency left on Mars', () => {
     age.lifeLeftOnEarth();
     age.getMarsed(age.remainingEarthLife);
-    expect(age.newYears).toEqual(29);
+    expect(age.newYears).toEqual(28);
   })
 })
