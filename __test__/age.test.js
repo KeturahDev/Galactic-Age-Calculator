@@ -21,4 +21,9 @@ describe('Age', () => {
     olderAge.lifeLeftOnEarth();
     expect(olderAge.winningBy).toEqual(10)
   })
+  test('should return age of user on Mercury', () => {
+    age.getMerked(age.userAge);
+    console.log(age.newAge)
+    expect(age.newAge).toEqual(22)
+  })
 })
