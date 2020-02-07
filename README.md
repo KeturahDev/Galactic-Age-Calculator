@@ -30,8 +30,6 @@ This application will determine your age on any given planet in the solar system
 | returns number of years user has lived past life expectancy for Jupiter | 83 | 1 |
 
 
-
-
 ## Setup/Installation Requirements
 
 _First, clone this repository to your desktop_

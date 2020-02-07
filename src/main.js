@@ -1,6 +1,5 @@
 import $ from 'jquery';
 import { Age } from './age.js';
-import 'bootstrap';
 
 $(document).ready(function () {
   $('#formy').submit(function (event) {
