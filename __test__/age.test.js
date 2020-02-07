@@ -75,4 +75,9 @@ describe('Age', () => {
     age.getJupt(age.userAge);
     expect(age.newYears).toEqual(2);
   })
+  test('should return life expectency left on Jupiter', () => {
+    age.lifeLeftOnEarth();
+    age.getJupt(age.remainingEarthLife);
+    expect(age.newYears).toEqual(5);
+  })
 })
