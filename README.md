@@ -61,10 +61,10 @@ _Next, install npm in the project directory_
 * VS Code
 
 ## Known Bugs
-There are no known bugs.
+When clicking from any other planatary button to 'jupiter', the intital number will not be accurate, and youll have to click jupiter again to reteive the true answer.
 
 ## Contact Info 
-There are no known bugs, however, if there are any issues running this website I would love feedback! Please email me at keturah.dev@gmail.com.
+I am currently away of one bug, however, if there are any issues running this website I would love feedback! Please email me at keturah.dev@gmail.com.
 
 ## License
 
