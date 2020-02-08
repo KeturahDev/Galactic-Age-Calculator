@@ -11,13 +11,12 @@ function mercuryInfo(age) {
   $('#venus').hide();
   age.getMerked(age.userAge);
   $('#mercAge').html(age.newYears);
-  // age.lifeLeftOnEarth();
   if (age.userAge < 73) {
     age.getMerked(age.remainingEarthLife);
     $('#mercExp').html(`you would live ${age.remainingEarthLife} more years`);
   } else {
     age.getMerked(age.winningBy);
-    $('#mercExp').html(`you would live ${age.winningBy} more years`);
+    $('#mercExp').html(`you'd have lived ${age.newYears} more years than the life expectancy!`);
   }
 }
 function venusInfo(age) {
@@ -27,13 +26,12 @@ function venusInfo(age) {
   $('#mars').hide();
   age.getVenused(age.userAge);
   $('#venAge').html(age.newYears);
-  // age.lifeLeftOnEarth();
   if (age.userAge < 73) {
     age.getVenused(age.remainingEarthLife);
     $('#venExp').html(`you would live ${age.remainingEarthLife} more years`);
   } else {
     age.getVenused(age.winningBy);
-    $('#venExp').html(`you would live ${age.winningBy} more years`);
+    $('#venExp').html(`you'd have lived ${age.newYears} more years than the life expectancy!`);
   }
 }
 function marsInfo(age) {
@@ -43,13 +41,12 @@ function marsInfo(age) {
   $('#venus').hide();
   age.getMarsed(age.userAge);
   $('#marsAge').html(age.newYears);
-  // age.lifeLeftOnEarth();
   if (age.userAge < 73) {
     age.getMarsed(age.remainingEarthLife);
     $('#marsExp').html(`you would live ${age.remainingEarthLife} more years`);
   } else {
     age.getMarsed(age.winningBy);
-    $('#marsExp').html(`you would live ${age.winningBy} more years`);
+    $('#marsExp').html(`you'd have lived ${age.newYears} more years than the life expectancy!`);
   }
 }
 function jupiterInfo(age) {
@@ -59,13 +56,12 @@ function jupiterInfo(age) {
   $('#mars').hide();
   $('#juptAge').html(age.newYears);
   age.getJupt(age.userAge);
-  // age.lifeLeftOnEarth();
   if (age.userAge < 73) {
     age.getJupt(age.remainingEarthLife);
     $('#juptExp').html(`you would live ${age.remainingEarthLife} more years`);
   } else {
     age.getJupt(age.winningBy);
-    $('#juptExp').html(`you would live ${age.winningBy} more years`);
+    $('#juptExp').html(`you'd have lived ${age.newYears} more years than the life expectancy!`);
   }
 }
 function mercuryExpectency() {
