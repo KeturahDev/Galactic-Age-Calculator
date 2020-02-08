@@ -5,13 +5,13 @@ import { Age } from './age.js';
 
 
 function mercuryInfo(age) {
-  $('#mercury').show();
+  $('#mercury').toggle();
   $('#mars').hide();
   $('#jupiter').hide();
   $('#venus').hide();
   age.getMerked(age.userAge);
   $('#mercAge').html(age.newYears);
-  age.lifeLeftOnEarth();
+  // age.lifeLeftOnEarth();
   if (age.userAge < 73) {
     age.getMerked(age.remainingEarthLife);
     $('#mercExp').html(`you would live ${age.remainingEarthLife} more years`);
@@ -21,13 +21,13 @@ function mercuryInfo(age) {
   }
 }
 function venusInfo(age) {
-  $('#venus').show();
+  $('#venus').toggle();
   $('#mercury').hide();
   $('#jupiter').hide();
   $('#mars').hide();
   age.getVenused(age.userAge);
   $('#venAge').html(age.newYears);
-  age.lifeLeftOnEarth();
+  // age.lifeLeftOnEarth();
   if (age.userAge < 73) {
     age.getVenused(age.remainingEarthLife);
     $('#venExp').html(`you would live ${age.remainingEarthLife} more years`);
@@ -37,13 +37,13 @@ function venusInfo(age) {
   }
 }
 function marsInfo(age) {
-  $('#mars').show();
+  $('#mars').toggle();
   $('#mercury').hide();
   $('#jupiter').hide();
   $('#venus').hide();
   age.getMarsed(age.userAge);
   $('#marsAge').html(age.newYears);
-  age.lifeLeftOnEarth();
+  // age.lifeLeftOnEarth();
   if (age.userAge < 73) {
     age.getMarsed(age.remainingEarthLife);
     $('#marsExp').html(`you would live ${age.remainingEarthLife} more years`);
@@ -53,13 +53,13 @@ function marsInfo(age) {
   }
 }
 function jupiterInfo(age) {
-  $('#jupiter').show();
+  $('#jupiter').toggle();
   $('#mercury').hide();
   $('#venus').hide();
   $('#mars').hide();
   $('#juptAge').html(age.newYears);
   age.getJupt(age.userAge);
-  age.lifeLeftOnEarth();
+  // age.lifeLeftOnEarth();
   if (age.userAge < 73) {
     age.getJupt(age.remainingEarthLife);
     $('#juptExp').html(`you would live ${age.remainingEarthLife} more years`);
@@ -69,16 +69,16 @@ function jupiterInfo(age) {
   }
 }
 function mercuryExpectency() {
-  $('#mercExp').show();
+  $('#mercExp').toggle();
 }
 function venusExpectency() {
-  $('#venExp').show();
+  $('#venExp').toggle();
 }
 function marsExpectency() {
-  $('#marsExp').show();
+  $('#marsExp').toggle();
 }
 function jupiterExpectency() {
-  $('#juptExp').show();
+  $('#juptExp').toggle();
 
 }
 $(document).ready(function () {
@@ -86,6 +86,7 @@ $(document).ready(function () {
     event.preventDefault();
     let age = $('#age').val();
     let usersAge = new Age(age);
+    usersAge.lifeLeftOnEarth();
 
     $('.output').show();
     $('#currentAge').html(usersAge.userAge);

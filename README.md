@@ -60,8 +60,16 @@ _Next, install npm in the project directory_
 * Jest
 * VS Code
 
-### License
+## Known Bugs
+There are no known bugs.
 
-*This webpage is licensed under the MIT license.*
+## Contact Info 
+There are no known bugs, however, if there are any issues running this website I would love feedback! Please email me at keturah.dev@gmail.com.
 
-Copyright (c) 2020 **_Keturah Howard_**
+## License
+
+This HTML web page is licensed under the MIT license.
+
+## Copyright
+
+Copyright (c) 2020 Keturah Howard.
