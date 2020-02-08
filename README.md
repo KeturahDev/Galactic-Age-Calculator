@@ -36,15 +36,15 @@ This application will determine your age on any given planet in the solar system
 
 ## Setup/Installation Requirements
 
-_First, clone this repository to your desktop_
-* _If using the Terminal, navigate to the desktop in the Terminal (entering "cd desktop" in the Terminal) and then entering "git clone" followed by the url to this repository._
-* _Once the project directory is cloned to your desktop, navigate to the directory in the terminal by entering "cd" followed by the name of this repository in the Terminal._
-* _Confirm that you have navigated to the project directory by entering "pwd" in the Terminal._
+  1. Click on the *clone or download* button of this repository. You can download the project file clicking the **"Download Zip"** button, double clicking the file in downloads, and navigating to the index.html file and double clicking that. *Or*, you can copy the link that pops up when you've clicked the *clone or download* button above this README.md file.
+  2. Navigate to your terminal, where you have previously installed git (if you have not done this yet, go ahead and do so now).
+  3. In terminal, change your directory to desktop, and then type **"git clone https://github.com/KeturahDev/Galactic-Age-Calculator"**.
+  4. When you've pressed enter, my project will be cloned onto your desktop, and now you can change directory into it and type **"code ."** to open the projects files in Visual Studio Code!
 
 _Next, install npm in the project directory_
-* _At the root directory for this project, enter the command "npm install"_
-* _Open the contents of the directory in a text editor or IDE of your choice (e.g., to open the contents of the directory in Visual Studio Code, enter the command "code ." in the Terminal)._
-* _Open index.html in a browser of your choice (e.g., Google Chrome)._
+5. At the root directory for this project, enter the command "npm install"
+6. Open the contents of the directory in a text editor or IDE of your choice (e.g., to open the contents of the directory in Visual Studio Code, enter the command "code ." in the Terminal).
+7. Open index.html in a browser of your choice (e.g., Google Chrome).
 
 ## Technologies Used
 
