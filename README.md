@@ -42,6 +42,7 @@ This application will determine your age on any given planet in the solar system
   4. When you've pressed enter, my project will be cloned onto your desktop, and now you can change directory into it and type **"code ."** to open the projects files in Visual Studio Code!
 
 _Next, install npm in the project directory_
+
 5. At the root directory for this project, enter the command "npm install"
 6. Open the contents of the directory in a text editor or IDE of your choice (e.g., to open the contents of the directory in Visual Studio Code, enter the command "code ." in the Terminal).
 7. Open index.html in a browser of your choice (e.g., Google Chrome).
